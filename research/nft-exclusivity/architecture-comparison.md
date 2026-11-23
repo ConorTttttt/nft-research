@@ -1,0 +1,14 @@
+# Choosing the coordination domain
+
+| Dimension | Ordered ledger NFT | Whole-object CEL | Independent rights, optional common batch | Fixed-recipient grant |
+|---|---|---|---|---|
+| Safety and finality | Defined by chain finality and contract. Probabilistic chains need an acceptance policy. | Unique certified successor under honest intersection. | Same invariant per right; one digest covers all included inputs. | Delivery final given an irrevocable certified destination and satisfied monotone condition. |
+| Coordination and latency | Submit to shared ordering infrastructure; finality latency depends on consensus. | One witness phase per choice, transactions can pipeline. | One phase per batch; individual disjoint assignments need no common object version. | Setup quorum, then evidence delivery without a new quorum. |
+| Scale | Shared ordering or shard boundaries. Implementations can batch and parallelise execution. | Across objects; a single parent admits one successor. | Semantic width k for k independent inputs; signer CPU, storage and traffic limit throughput. | Presentation verifies locally; next open spend still needs arbitration. |
+| Availability | Depends on ledger quorum, sequencer and data. | Uncontested quorum progress. Split locks can freeze. | Same; a batch shares fate across its members. | Proof and preimage must remain available; no unilateral fallback. |
+| Decentralisation | Ledger-specific admission and economic security. | Per-domain capture and membership problem. | Fixed admitted roster in prototype. Distinct applications may choose different rosters. | Inherits setup trust. |
+| Proof and recovery | Block/state proofs, finality evidence and chain-specific recovery. | q signatures per step plus lineage or checkpoint. | q per group plus full list and ancestry; repeat exact digest after crash. | Grant proof plus release data; lost condition can encumber forever. |
+| Complexity | External chain integration and bridge assumptions for a Holochain app. | Simple verification, difficult safe operational recovery. | Adds rights semantics, atomic persistence, ancestry DAG verification and batch disclosure. | Simple exercise, specialised ownership semantics. |
+| Holochain fit | Usually external ledger. | Off-DHT arbitration; DHT can publish receipts. | Native integrity/publication adapter, external persistent voters. | Native proof verification after setup is feasible. |
+
+For ordinary title with arbitrary future recipients, one-input CEL already matches the one-round threshold bound. Choose a mature BFT state machine if the application must resolve competing requests and rotate membership with progress. A private quorum with seven keys is realistic only for domains that can operate genuinely independent witnesses. For a permissionless population without a defensible admission bound this study establishes no deterministic Byzantine finality guarantee.

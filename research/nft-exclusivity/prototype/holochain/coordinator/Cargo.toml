@@ -1,0 +1,9 @@
+[package]
+name="rights_coordinator"
+version="0.1.0"
+edition="2024"
+[lib]
+crate-type=["cdylib"]
+[dependencies]
+rights_integrity={path="../integrity"}
+hdk="=0.7.1"

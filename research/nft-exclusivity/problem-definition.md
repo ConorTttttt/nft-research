@@ -1,0 +1,9 @@
+# What a recipient can safely accept
+
+Fix a DNA, genesis manifest, rights policy and witness roster. A genesis identifier denotes one issuer-defined entitlement. Two roots pointing to the same artwork are separate assets unless an external registry controls admission. Ownership here means the public key entitled to authorise the next spend of one version of that right. Enforcement against a physical custodian or copyright owner is outside this definition.
+
+A transition consumes a nonempty set of versions and creates exactly one child per version with a designated controller. For each input, at most one distinct transition may ever have sufficient authentic signatures, counting withheld signatures. A buyer accepts after verifying the entire ancestry from genesis and the transfer naming its own key. Learning that an old owner once held title does not prove current control. A fresh recipient challenge alone only proves possession of a key. To acquire from a purported seller, require the certified spend to the buyer.
+
+The abstract state is the set of certified statements closed under certified dependencies. Current control is the frontier of that set. Honest replicas can have different known frontiers. Validity of historical acquisition is monotone. Continued control is conditional on absence of a later authorised transfer. Safety, discovery, delivery and fresh reads are separate properties.
+
+**Repository inventory.** The connected repository was empty on inspection (no Git refs, no tracked files). No Rust version, Cargo lock, zomes, NFT mechanisms, countersigning implementation, simulations or CI existed. This study therefore adopts the upstream Holochain 0.7.1 release as a reference. Its lockfile resolves HDK 0.7.1 and HDI 0.8.1, with Rust 1.96.1 in rust-toolchain.toml. The research core is independently buildable. [Upstream tree](https://github.com/holochain/holochain/tree/fdaa678786cd5618c36a7290aad69a5f1511d8a9)
