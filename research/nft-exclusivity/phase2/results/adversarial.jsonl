@@ -1,0 +1,10 @@
+{"test": "hidden certificate + two equivocators + one restored signer", "n": 7, "q": 5, "first": 5, "second": 5}
+{"test": "restart/reject other/retry same", "elapsed_ms": 43.304996}
+{"test": "certified fallback installed and spent", "n": 7, "reports": 7}
+{"test": "concurrent conflicting proposals", "n": 7, "counts": [5, 4]}
+{"test": "two silent; wrong predecessor/roster rejected", "n": 7}
+{"test": "hidden certificate + two equivocators + one restored signer", "n": 8, "q": 6, "first": 6, "second": 5}
+{"test": "restart/reject other/retry same", "elapsed_ms": 90.459962}
+{"test": "certified fallback installed and spent", "n": 8, "reports": 8}
+{"test": "concurrent conflicting proposals", "n": 8, "counts": [6, 4]}
+{"test": "two silent; wrong predecessor/roster rejected", "n": 8}

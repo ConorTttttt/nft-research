@@ -1,0 +1,1 @@
+{"stock_conductor": "0.7.1", "witnesses": 8, "requested_hold_ms": 250, "delayed_leaf_publish_cli_ms": 173.71, "reset_then_transfer_publish_cli_ms": 184.35, "tampered_path": "InvalidCommit"}

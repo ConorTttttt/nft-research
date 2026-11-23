@@ -1,0 +1,12 @@
+[package]
+name = "phase2_integrity"
+version = "0.1.0"
+edition = "2024"
+[lib]
+crate-type = ["cdylib","rlib"]
+[dependencies]
+hdi = "=0.8.1"
+holochain_serialized_bytes = "=0.0.57"
+serde = {version="1",features=["derive"]}
+ed25519-dalek = "=2.2.0"
+sha2 = "=0.10.9"

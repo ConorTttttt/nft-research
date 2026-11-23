@@ -1,0 +1,7 @@
+{"test": "administrative reassignment of same unresolved input", "valid_under_own_roster": 2, "valid_under_pinned_old_roster": 1}
+{"test": "two partial candidates: close + verify + install at seven", "trial": 0, "elapsed_ms": 18.115236}
+{"test": "two partial candidates: close + verify + install at seven", "trial": 1, "elapsed_ms": 19.299871}
+{"test": "two partial candidates: close + verify + install at seven", "trial": 2, "elapsed_ms": 17.626282}
+{"test": "two partial candidates: close + verify + install at seven", "trial": 3, "elapsed_ms": 15.929251}
+{"test": "two partial candidates: close + verify + install at seven", "trial": 4, "elapsed_ms": 16.44137}
+{"test": "two partial candidates: close + verify + install at seven", "trial": 5, "elapsed_ms": 16.630558}

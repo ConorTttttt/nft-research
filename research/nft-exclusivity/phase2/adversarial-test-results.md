@@ -1,0 +1,15 @@
+# Process and conductor tests
+
+| Scenario | Observed outcome |
+|---|---|
+| Privately held certificate, two signers ignoring reservations, concurrent conflicting requests, a copied stale database | 7/5 accepted both five-vote statements after an additional restore. 8/6 produced six votes for A and only five for B. The restored process used the same real private key. |
+| Partial voting, death, restart with current journal | Other digest rejected, exact prior digest accepted. No lock release on timeout. |
+| Permanent negative reports after a split | Under both profiles the owner collected a sufficient report set, installed the same deterministic fallback child at all workers and spent it. Different sufficient report subsets for an empty input gave identical child IDs. Four empty reports failed at 7/5. |
+| Two silent identities | Stopped both processes. The remaining reachable identities certified an uncontended input at both thresholds. A client reaching only two signers could not produce a quorum. |
+| Asymmetric participation and delays | Concurrent clients sent distinct proposals to different overlapping signer subsets. Further trials delayed individual RPCs from 0 to 82 ms. At most one candidate reached the threshold. The finite search permits arbitrary schedules within its bounds. |
+| Withheld batch or proof | An uninvolved worker lacked the body. An honest original voter returned it. Original participating voters reissued votes; the buyer independently verified all seven paths in a non-power-of-two tree. |
+| Invalid or incompatible claims | Tampered paths, wrong owner, duplicate parent, cross-roster replay, wrong predecessor and cross-batch overlapping consumption were rejected. A later spend of the previously unreserved batch tail succeeded. |
+| Misconfigured membership | Two disjoint honest committees produced two valid but incompatible certificates over the same old input if either roster was trusted. Pinning the old policy excluded the unauthorised committee. |
+| Delayed Holochain publication | A buyer verified a live six-signature certificate before publication. While it was withheld, an overlapping transfer fell short. A stock conductor subsequently accepted the portable history, rejected a mutated path and accepted a reset followed by an authorised spend. |
+
+Each fault-injection process uses a real signing key. The explicit Byzantine mode intentionally bypasses reservations and can lie in a closure report; this models faulty participants admitted by the theorem. Workers share one OS and the harness provisions all experimental identities. No mocks stand in for production trust. Partitions here are delivery schedules or omitted RPC destinations, not independent physical networks. The Holochain trial used one conductor and measured local authoring. The lab exercises ordinary kill/restart and exact quiescent database replacement. Filesystem corruption, distributed backups and power failure remain untested. [Process traces](results/adversarial.jsonl) · [Proof tests](results/proof-tests.jsonl) · [Disjoint rosters](results/membership.jsonl)

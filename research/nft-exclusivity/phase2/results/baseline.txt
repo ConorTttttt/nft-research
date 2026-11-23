@@ -1,0 +1,8 @@
+Source 35146dccf2e7709139bb89b53898379358ed3542
+cargo test --release --locked --offline: 4 passed in protocol.rs
+cargo run --release --locked --offline --example measure
+width,median_us_for_64,min_us,max_us
+1,36695,35030,37208
+4,10024,9798,10577
+16,3540,3422,3845
+64,1950,1841,2628
