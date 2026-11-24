@@ -1,0 +1,6 @@
+none 385 904 None []
+rollback 1095 3367 source has competing dispositions ['w0 reserves pay A', 'w0 reserves void A', 'w1 reserves pay A', 'w2 reserves void A', 'assemble hidden pay A', 'assemble hidden void A']
+per grant 1867 6430 source has competing dispositions ['w0 reserves pay A', 'w0 reserves pay B', 'w1 reserves pay A', 'w1 reserves pay B', 'assemble hidden pay A', 'assemble hidden pay B']
+unguarded exit 336 879 seller credit and native reclaim coexist ['w0 reserves pay A', 'w1 reserves pay A', 'assemble hidden pay A', 'independent native reclaim on other history']
+realm replay 315 654 title without corresponding decision ['w0 reserves pay A', 'w1 reserves pay A', 'assemble hidden pay A', 'archive complete pay A', 'independent fetch pay A', 'exercise under other grant']
+full-object archival: r >= 4 survives 2 withholding and 1 independent loss, n=7

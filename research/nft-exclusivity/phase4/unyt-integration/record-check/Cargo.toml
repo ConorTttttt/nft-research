@@ -1,0 +1,13 @@
+[package]
+name = "phase4-historical-record"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+holochain_integrity_types = "=0.7.1"
+holo_hash = { version = "=0.7.1", features = ["hashing", "encoding"] }
+ed25519-dalek = "=2.2.0"
+holochain_serialized_bytes = "=0.0.57"
+serde_json = "1"
+hex = "0.4"

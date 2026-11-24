@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/workspace/nft-research/research/nft-exclusivity/phase4/unyt-integration/probe.py", line 39, in <module>
+    attempt(root,cli,happ.resolve().parent)
+  File "/workspace/nft-research/research/nft-exclusivity/phase4/unyt-integration/local_setup.py", line 44, in attempt
+    exercise(root,cli,release,roles,network,record)
+  File "/workspace/nft-research/research/nft-exclusivity/phase4/unyt-integration/transfer.py", line 98, in exercise
+    call(app,"create_receipt_from_rave",dict(hash=h64(run),note="P4 local sale"))
+                                                  ^^^^^^^^
+  File "/workspace/nft-research/research/nft-exclusivity/phase4/unyt-integration/transfer.py", line 23, in h64
+    return "u"+base64.urlsafe_b64encode(bytes(o)).decode().rstrip("=")
+                                        ^^^^^^^^
+TypeError: 'dict' object cannot be interpreted as an integer

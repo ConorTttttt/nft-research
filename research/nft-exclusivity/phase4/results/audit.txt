@@ -1,0 +1,2 @@
+["Pending", "matched historical allocation; no independently established native funding exclusion"]
+amount substitution, realm substitution, withheld execution checked

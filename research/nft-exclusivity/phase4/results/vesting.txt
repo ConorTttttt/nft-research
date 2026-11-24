@@ -1,0 +1,4 @@
+shared vesting 15 18 states with vested unexercised title 3 failure None
+unprepared 8 8 states with vested unexercised title 0 failure ['buyer reserves funded unit', 'payment authority decides paid']
+discretionary credit 6 6 states with vested unexercised title 0 failure ['title authorizes fixed buyer and refund', 'buyer reserves funded unit', 'payment authority decides paid']
+timeout 15 18 states with vested unexercised title 2 failure ['title authorizes fixed buyer and refund', 'buyer reserves funded unit', 'payment authority decides paid', 'payer reclaims']

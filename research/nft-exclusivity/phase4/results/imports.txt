@@ -1,0 +1,6 @@
+shared export authority False legacy independently usable False recognized titles 2
+shared export authority False legacy independently usable True recognized titles 3
+shared export authority True legacy independently usable False recognized titles 1
+shared export authority True legacy independently usable True recognized titles 2
+new epoch requires old export False reachable outcomes ["('export', 'void')", "('old-pay', 'void')"]
+new epoch requires old export True reachable outcomes ["('export', 'void')", "('export', None)", "('old-pay', None)"]

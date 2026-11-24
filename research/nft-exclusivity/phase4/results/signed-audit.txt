@@ -1,0 +1,2 @@
+["Pending", "signed historical records verified; exclusive native funding remains unestablished"]
+Five altered signatures and an altered receipt body rejected; five withheld records unresolved.
