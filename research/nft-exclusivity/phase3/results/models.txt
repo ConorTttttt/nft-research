@@ -1,0 +1,5 @@
+n=7, q=5, e=2, minimum overlap 3, 120 report histograms
+n=7, q=5, e=3, minimum overlap 3, 120 report histograms
+n=8, q=6, e=3, minimum overlap 4, 165 report histograms
+Guard diamond/exclusion checks 48; all three vacant-sale guards necessary
+Settlement 11 reachable states, 38 edges including loss and replay

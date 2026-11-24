@@ -1,0 +1,9 @@
+# Assumptions that carry the result
+
+* Trust the genesis policy and roster through a channel independent of the proof. Assume collision resistance, authentic admitted Ed25519 keys, unique realm-to-asset mappings and correct verifier implementations.
+* Count distinct equivocating witness identities across the entire period old evidence is accepted. Snapshot restoration, key cloning, shared administrators and sequential compromises count. Hardware or operational assurances for this bound have not been established.
+* Correct witnesses check all parents and authorization and persist reservations before signing. SQLite protects against ordinary process restart with the filesystem assumptions of the host. It provides no external monotonic rollback anchor.
+* Payment requires one truthful, durable, irreversible ledger decision per dedicated funded coupon. The issuer signing key and database must have one coherent lifetime history. The test ledger credits a row; production money, chargebacks and insolvency are outside the experiment.
+* Communications can reorder, duplicate, partition or lose evidence indefinitely. Safety does not assume synchronous clocks. Progress requires enough willing witnesses, the required dependencies, and a responsive payment ledger. Holochain publication is optional for safety.
+* A compromised owner can authorize a valid but unwanted sale. A compromised recipient can lose their own title after acquiring it. Wallet guardians restore key access under their threshold; a lost key does not justify reassigning a live witness or parent.
+* The native lab is loopback-only. Multi-tenant authentication, DoS protection, HSM custody, operator separation and independent replication have not been established. Test adapters assume trusted local configuration. The inner proof decoder has a fixed cap. Transport and host deserialization have different resource limits.

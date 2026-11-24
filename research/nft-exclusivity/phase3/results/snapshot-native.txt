@@ -1,0 +1,17 @@
+     Locking 21 packages to latest compatible versions
+      Adding sha2 v0.10.9 (available: v0.11.0)
+    Blocking waiting for file lock on build directory
+   Compiling holochain-snapshot-commitment v0.1.0 (/tmp/p3vector)
+    Finished `test` profile [unoptimized] target(s) in 19.71s
+     Running unittests src/lib.rs (/tmp/p3target/debug/deps/holochain_snapshot_commitment-3cff38256e1d77ce)
+
+running 7 tests
+test tests::reject_bad_identifiers ... ok
+test tests::deterministic_and_tamper_sensitive ... ok
+test tests::reject_duplicate_or_unsorted ... ok
+test tests::strict_decode_detects_reordering_and_padding ... ok
+test tests::strict_roundtrip_and_reject_trailing_bytes ... ok
+test vector::tests::reject_tamper_and_oversize ... ok
+test vector::tests::roots_and_paths ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.01s

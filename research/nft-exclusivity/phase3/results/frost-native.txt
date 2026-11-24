@@ -1,0 +1,135 @@
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded base16ct v0.2.0
+  Downloaded derive-getters v0.5.0
+  Downloaded hash32 v0.2.1
+  Downloaded aead v0.5.2
+  Downloaded cobs v0.3.0
+  Downloaded embedded-io v0.6.1
+  Downloaded embedded-io v0.4.0
+  Downloaded chacha20 v0.9.1
+  Downloaded opaque-debug v0.3.1
+  Downloaded frost-ed25519 v3.0.0
+  Downloaded crypto_box v0.9.1
+  Downloaded heapless v0.7.17
+  Downloaded frost-rerandomized v3.0.0
+  Downloaded crypto_secretbox v0.1.1
+  Downloaded chacha20poly1305 v0.10.1
+  Downloaded const-crc32-nostd v1.3.1
+  Downloaded rand_chacha v0.3.1
+  Downloaded find-msvc-tools v0.1.14
+  Downloaded salsa20 v0.10.2
+  Downloaded document-features v0.2.12
+  Downloaded postcard v1.1.3
+  Downloaded cipher v0.4.4
+  Downloaded cc v1.8.0
+  Downloaded serdect v0.2.0
+  Downloaded litrs v1.0.1
+  Downloaded libc v0.2.190
+  Downloaded rustix v1.1.5
+  Downloaded visibility v0.1.1
+  Downloaded universal-hash v0.5.1
+  Downloaded smallvec v1.16.3
+  Downloaded rand v0.8.8
+  Downloaded inout v0.1.4
+  Downloaded poly1305 v0.8.0
+  Downloaded frost-core v3.0.0
+  Downloaded spin v0.9.9
+  Downloaded syn v3.0.9
+   Compiling libc v0.2.190
+   Compiling syn v2.0.119
+   Compiling generic-array v0.14.7
+   Compiling serde_core v1.0.228
+   Compiling serde v1.0.228
+   Compiling syn v3.0.9
+   Compiling getrandom v0.2.17
+   Compiling rand_core v0.6.4
+   Compiling thiserror v2.0.21
+   Compiling scopeguard v1.2.0
+   Compiling lock_api v0.4.14
+   Compiling heapless v0.7.17
+   Compiling find-msvc-tools v0.1.14
+   Compiling shlex v2.0.1
+   Compiling opaque-debug v0.3.1
+   Compiling byteorder v1.5.0
+   Compiling cc v1.8.0
+   Compiling hash32 v0.2.1
+   Compiling spin v0.9.9
+   Compiling curve25519-dalek v4.1.3
+   Compiling thiserror-impl v2.0.21
+   Compiling vcpkg v0.2.15
+   Compiling stable_deref_trait v1.2.1
+   Compiling pkg-config v0.3.34
+   Compiling zerocopy v0.8.63
+   Compiling cobs v0.3.0
+   Compiling foldhash v0.1.5
+   Compiling litrs v1.0.1
+   Compiling either v1.19.0
+   Compiling libsqlite3-sys v0.35.0
+   Compiling bitflags v2.13.2
+   Compiling base16ct v0.2.0
+   Compiling document-features v0.2.12
+   Compiling zeroize_derive v1.5.0
+   Compiling serde_derive v1.0.228
+   Compiling curve25519-dalek-derive v0.1.1
+   Compiling zeroize v1.9.1
+   Compiling visibility v0.1.1
+   Compiling derive-getters v0.5.0
+   Compiling crypto-common v0.1.7
+   Compiling inout v0.1.4
+   Compiling cipher v0.4.4
+   Compiling universal-hash v0.5.1
+   Compiling block-buffer v0.10.4
+   Compiling poly1305 v0.8.0
+   Compiling digest v0.10.7
+   Compiling aead v0.5.2
+   Compiling sha2 v0.10.9
+   Compiling salsa20 v0.10.2
+   Compiling itertools v0.14.0
+   Compiling hashbrown v0.15.5
+   Compiling hex v0.4.3
+   Compiling const-crc32-nostd v1.3.1
+   Compiling itoa v1.0.18
+   Compiling serde_json v1.0.154
+   Compiling postcard v1.1.3
+   Compiling serdect v0.2.0
+   Compiling holochain-mpc-core v0.3.4 (/tmp/p3frost/crates/mpc-core)
+   Compiling frost-core v3.0.0
+   Compiling hashlink v0.10.0
+   Compiling crypto_secretbox v0.1.1
+   Compiling chacha20 v0.9.1
+   Compiling fallible-iterator v0.3.0
+   Compiling smallvec v1.16.3
+   Compiling getrandom v0.3.4
+   Compiling rustix v1.1.5
+   Compiling fallible-streaming-iterator v0.1.9
+   Compiling chacha20poly1305 v0.10.1
+   Compiling crypto_box v0.9.1
+   Compiling frost-rerandomized v3.0.0
+   Compiling ppv-lite86 v0.2.21
+   Compiling linux-raw-sys v0.12.1
+   Compiling frost-ed25519 v3.0.0
+   Compiling rand_chacha v0.3.1
+   Compiling rand v0.8.8
+   Compiling holochain-mpc-security v0.3.4 (/tmp/p3frost/crates/mpc-security)
+   Compiling fastrand v2.5.0
+   Compiling once_cell v1.21.4
+   Compiling rusqlite v0.37.0
+   Compiling tempfile v3.27.0
+   Compiling holochain-mpc-runtime v0.3.7 (/tmp/p3frost/crates/mpc-runtime)
+   Compiling holochain-mpc-frost-ed25519 v0.3.4 (/tmp/p3frost/crates/mpc-frost-ed25519)
+    Finished `test` profile [unoptimized] target(s) in 34.35s
+     Running tests/three_agents.rs (/tmp/p3target/debug/deps/three_agents-a6b52d6a083da662)
+
+running 1 test
+test three_agent_dkg_two_agent_signing_and_verification ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 15 filtered out; finished in 0.92s
+
+    Finished `test` profile [unoptimized] target(s) in 0.52s
+     Running tests/three_agents.rs (/tmp/p3target/debug/deps/three_agents-a6b52d6a083da662)
+
+running 1 test
+test activated_group_approved_intent_nonce_wal_and_threshold_signing ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 15 filtered out; finished in 0.98s

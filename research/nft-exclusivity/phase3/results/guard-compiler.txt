@@ -1,0 +1,1 @@
+7 transition tables x 8 states x 8 projections. Exact least coordinate support in every case.

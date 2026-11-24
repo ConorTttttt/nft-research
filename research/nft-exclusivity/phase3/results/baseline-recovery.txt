@@ -1,0 +1,7 @@
+n=4 q=3 e=1: 625 observations, 77 safe resets, 299 ambiguous
+n=5 q=4 e=2: 3125 observations, 141 safe resets, 2111 ambiguous
+n=7 q=5 e=2: 441 ordered quorum pairs, min intersection 3
+n=7 q=5 e=3: 441 ordered quorum pairs, min intersection 3
+n=8 q=6 e=3: 784 ordered quorum pairs, min intersection 4
+n=9 q=6 e=3: 7056 ordered quorum pairs, min intersection 3
+n=10 q=7 e=3: 14400 ordered quorum pairs, min intersection 4

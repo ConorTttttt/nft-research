@@ -1,0 +1,16 @@
+# What the verification establishes
+
+| Property | Method and result | Scope |
+|---|---|---|
+| Exclusive finality | Independent quorum enumeration plus the general overlap proof. Phase 2 model reproduced 441 ordered quorum pairs for 7/5 and 784 for 8/6. | One-round threshold model and lifetime identity budget. |
+| Closure/refund | Independent enumeration of absent, empty, A and B histogram classes, with explicit candidate C unseen. Oracle enumerates final quorums and counts negative reporters that would have to lie. Matches the histogram rule on 120, 120 and 165 histograms for 7/5/2, 7/5/3 and 8/6/3. | Symmetric reporters. The general proof covers more distinct candidate names. 7/5/3 fails transfer exclusivity despite correctness of the exclusion calculation. |
+| Recovery under rollback | Baseline temporal exploration reached 126 states without conflict before allowing restoration in the small 4/3/1 model, then 415 states and a conflicting trace. The 5/4/2 profile remained safe over its explored 1,904 states. | Finite quotient, no arbitrary-recovery liveness theorem. |
+| Handoff | Baseline three-disjoint-committee model explored 391 reachable states. Wrong-parent administrative reassignment accepted twice only under inconsistent pins in the separate process experiment. | Prospective handoff. The sale slice retains one roster. |
+| Authority conservation and independence | Every enabled pair checked over a three-facet four-label product. 48 co-enabled cases, with commuting disjoint operations and exclusion of overlapping writes. All three necessary vacant-sale inputs independently tested. | Restricted transition family. General conservation follows from disjoint input/output footprints and unique predecessor certification. |
+| Least guards | Seven sparse-write functions on an eight-state product checked against all eight coordinate projections. | Exact finite-table result. No arbitrary Rhai compiler. |
+| Settlement | BFS over certification, reservation, irreversible paid/void, delayed or lost evidence and materialization. Eleven reachable states and 38 edges. No Bob child without paid or Alice refund with paid. | Atomic, truthful funding and exclusive terminal state are premises. Paid with undelivered evidence is reachable. |
+| Authenticity | Native Rust and Python returned identical child/controller for 7/5 and 8/6 paid and void. 120 negative byte cases rejected. Real WASM checked a paid envelope at commit. | Generated admitted keys, selected negative corpus. Signature unforgeability is assumed. |
+| Freshness | Repeated exercise yields the same child. Onward transfer invalidates the old child's ability to spend again while its certificate still verifies. | History and present spendability have different acceptance rules. |
+| Progress | Sufficient responsive distinct signers and available complete evidence permit normal completion. No fairness assumption forces a malicious issuer to return data. | Under indefinite isolation pending is a safe fixed point. |
+
+Commands and raw enumerations are in test-results.md and results/. The finite models abstract signatures as authenticated transitions. Cryptographic authenticity was checked separately in the implementation.

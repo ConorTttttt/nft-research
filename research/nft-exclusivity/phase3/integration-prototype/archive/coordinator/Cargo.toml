@@ -1,0 +1,9 @@
+[package]
+name="grant_coordinator"
+version="0.1.0"
+edition="2024"
+[lib]
+crate-type=["cdylib","rlib"]
+[dependencies]
+hdk="=0.7.1"
+grant_integrity={path="../integrity"}

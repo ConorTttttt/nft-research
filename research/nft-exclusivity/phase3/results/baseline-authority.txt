@@ -1,0 +1,1 @@
+three atoms: 5 reachable partitions; capacity and ambiguous-oracle counterexamples confirmed

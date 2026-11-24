@@ -1,0 +1,83 @@
+{
+  "holochain-authenticated-state": {
+    "inspected_tip": "8a076ad03327c8500ae355a33b06a81b88631ac7",
+    "branches": [
+      "g6-conductor-evidence",
+      "g6.1-adversarial-tests",
+      "g6.1b-malicious-evidence",
+      "master",
+      "native-acceptance-b3"
+    ]
+  },
+  "holochain-dex": {
+    "inspected_tip": "f8593b498c5f9f802506aaf1c31ea97c6ad8d101",
+    "branches": [
+      "main",
+      "order-book",
+      "read-performance",
+      "trade-history",
+      "write-performance"
+    ]
+  },
+  "holochain-verifiable-random-functions": {
+    "inspected_tip": "d848acfb83170bad163e3d1c3758c868f2d3ab36",
+    "branches": [
+      "chore/vrf-v0.9.1-security-hardening",
+      "main"
+    ]
+  },
+  "holochain-sss": {
+    "inspected_tip": "b80e39f1edf67cf3f69d553cc922ed4b2397ba9d",
+    "branches": [
+      "chore/sprint1-baseline-20261110",
+      "main",
+      "release/v0.1.0-rc.1",
+      "release/v0.1.0-rc.2"
+    ]
+  },
+  "holochain-hpke-encryption": {
+    "inspected_tip": "c8399c702ccd3b5e023335a0bac6b851338904a0",
+    "branches": [
+      "design/astral-cose-remediation-2026-11-17",
+      "main",
+      "planning/holochain-cose-review-2026-11-16",
+      "sprint-1/clean-bootstrap-and-governance",
+      "sprint-1/gate-1.1-source-provenance",
+      "sprint-1/gate-1.2-immutable-source-retrieval"
+    ]
+  },
+  "hc-cononical-encoding": {
+    "inspected_tip": "31def308922d7f9354810532dd051e2af0c97a49",
+    "branches": [
+      "interop/fixtures-v1",
+      "interop/wp0-descriptor-derive-fix",
+      "interop/wp1-profile",
+      "main",
+      "sprint0/gate1-source-import",
+      "sprint0/gate2-reproducibility",
+      "sprint0/gate4-cross-language-corpus",
+      "sprint0/gate5-release-readiness",
+      "sprint1/gates-2-and-3",
+      "sprint1/typed-descriptor",
+      "sprint2/s2-01-conformance",
+      "sprint2/s2-02-malformed-bcs",
+      "sprint2/s2-03-schema-descriptors",
+      "sprint2/s2-04-schema-fingerprints",
+      "sprint2/s2-05-release-registry",
+      "sprint2/s2-06-ci-docs-review"
+    ]
+  },
+  "unyt-smart-agreement-ui": {
+    "inspected_tip": "e9629cd89271467cd06487ac848a83b57462cfaf",
+    "branches": [
+      "feature/execution-impact-preview-20261120",
+      "main"
+    ]
+  },
+  "HoloHomes": {
+    "inspected_tip": "54ff31d8eac20d3beb98bcf0ec2d3d487726342e",
+    "branches": [
+      "main"
+    ]
+  }
+}

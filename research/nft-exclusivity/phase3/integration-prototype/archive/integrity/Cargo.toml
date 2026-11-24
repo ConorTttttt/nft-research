@@ -1,0 +1,11 @@
+[package]
+name="grant_integrity"
+version="0.1.0"
+edition="2024"
+[lib]
+crate-type=["cdylib","rlib"]
+[dependencies]
+hdi="=0.8.1"
+serde={version="1",features=["derive"]}
+holochain_serialized_bytes="=0.0.57"
+phase3-verifier={path="../../verifier"}

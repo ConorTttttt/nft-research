@@ -1,0 +1,4 @@
+{"n": 7, "q": 5, "tag": "void", "binary": 909, "reference_json": 2253, "baseline_receipt_json": 996, "rejected": 29}
+{"n": 7, "q": 5, "tag": "paid", "binary": 909, "reference_json": 2253, "baseline_receipt_json": 996, "rejected": 29}
+{"n": 8, "q": 6, "tag": "void", "binary": 1006, "reference_json": 2455, "baseline_receipt_json": 1131, "rejected": 31}
+{"n": 8, "q": 6, "tag": "paid", "binary": 1006, "reference_json": 2455, "baseline_receipt_json": 1131, "rejected": 31}

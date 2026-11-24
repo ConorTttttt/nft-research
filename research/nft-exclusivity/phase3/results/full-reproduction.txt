@@ -1,0 +1,37 @@
+n=7, q=5, e=2, minimum overlap 3, 120 report histograms
+n=7, q=5, e=3, minimum overlap 3, 120 report histograms
+n=8, q=6, e=3, minimum overlap 4, 165 report histograms
+Guard diamond/exclusion checks 48; all three vacant-sale guards necessary
+Settlement 11 reachable states, 38 edges including loss and replay
+7 transition tables x 8 states x 8 projections. Exact least coordinate support in every case.
+{"n": 7, "q": 5, "tag": "void", "binary": 909, "reference_json": 2253, "baseline_receipt_json": 996, "rejected": 29}
+{"n": 7, "q": 5, "tag": "paid", "binary": 909, "reference_json": 2253, "baseline_receipt_json": 996, "rejected": 29}
+{"n": 8, "q": 6, "tag": "void", "binary": 1006, "reference_json": 2455, "baseline_receipt_json": 1131, "rejected": 31}
+{"n": 8, "q": 6, "tag": "paid", "binary": 1006, "reference_json": 2455, "baseline_receipt_json": 1131, "rejected": 31}
+{"width": 16, "depth": 12, "full_bytes": 11965, "checkpoint_bytes": 1134, "signer_replay_wall_s": 0.7329579770000691, "full_verify_cpu_us": [8997.547, 10770.783, 9444.555, 11498.588, 10016.867, 9845.829, 9249.317, 8644.86, 8825.291, 8340.571, 8701.048, 8151.258, 10398.053, 9599.257, 9330.896], "checkpoint_verify_cpu_us": [545.217, 591.205, 664.26, 598.2, 560.053, 568.419, 637.38, 555.946, 575.098, 652.73, 595.185, 552.685, 540.211, 577.902, 557.167]}
+{"source_dna": "uhC0kyY4f6tS9b0rArsrFRKUqJm4PA-cavbTvU0LjPvBvCRlJnbgU", "mint_action": "84292467ded1a5953ac8e49d9c42238535cf2f28db117ff03b2e2be31d1552afd7e9b6b946d248", "test_realm": "d15d8273ebdceadcc9b10d53311aa9c46c0b8b77047a2bb03028cfa04cd60d12", "mapped_slot": 0}
+{"action": "hCkkriKazPtdg4qe5WOmi5gWUSxRTqMF3rBM43wo_DQdgNMmcsa8", "publish_cli_ms": 204.0079829998831, "retrieval_cli_ms": 195.11441899999227, "edited_proof": "rejected"}
+{"slot": 0, "outcome": "paid", "bytes": 909, "commit_us": 10554.117, "reserve_us": 4553.22, "settle_us": 16057.045, "exercise_us": 1015.077, "recover_us": 2099.665, "db_bytes": 12288, "latency_us": 32179.459}
+{"slot": 1, "outcome": "void", "bytes": 909, "commit_us": 16472.601, "reserve_us": 0.589, "settle_us": 7428.764, "exercise_us": 936.043, "recover_us": 2311.142, "db_bytes": 20480, "latency_us": 24837.997}
+{"slot": 2, "outcome": "paid", "bytes": 909, "commit_us": 8200.97, "reserve_us": 2892.362, "settle_us": 20738.122, "exercise_us": 933.997, "recover_us": 2063.413, "db_bytes": 20480, "latency_us": 32765.451}
+{"slot": 3, "outcome": "paid", "bytes": 909, "commit_us": 7819.128, "reserve_us": 2156.749, "settle_us": 15343.981, "exercise_us": 908.3, "recover_us": 2301.086, "db_bytes": 20480, "latency_us": 26228.158}
+{"slot": 4, "outcome": "paid", "bytes": 909, "commit_us": 7621.785, "reserve_us": 2824.037, "settle_us": 17116.142, "exercise_us": 1019.543, "recover_us": 2459.145, "db_bytes": 24576, "latency_us": 28581.507}
+{"slot": 5, "outcome": "paid", "bytes": 909, "commit_us": 7700.404, "reserve_us": 2382.587, "settle_us": 15229.421, "exercise_us": 1483.672, "recover_us": 2406.261, "db_bytes": 24576, "latency_us": 26796.084}
+{"slot": 6, "outcome": "paid", "bytes": 909, "commit_us": 8746.737, "reserve_us": 2747.295, "settle_us": 16145.901, "exercise_us": 957.002, "recover_us": 2450.39, "db_bytes": 28672, "latency_us": 28596.935}
+{"slot": 7, "outcome": "paid", "bytes": 909, "commit_us": 7595.619, "reserve_us": 2704.767, "settle_us": 15612.114, "exercise_us": 985.481, "recover_us": 2094.67, "db_bytes": 28672, "latency_us": 26897.981}
+{"slot": 8, "outcome": "paid", "bytes": 909, "commit_us": 8323.431, "reserve_us": 2504.077, "settle_us": 13944.941, "exercise_us": 900.24, "recover_us": 2129.838, "db_bytes": 32768, "latency_us": 25672.689}
+{"slot": 9, "outcome": "paid", "bytes": 909, "commit_us": 7711.944, "reserve_us": 3231.269, "settle_us": 14239.638, "exercise_us": 888.589, "recover_us": 2136.713, "db_bytes": 32768, "latency_us": 26071.44}
+{"slot": 10, "outcome": "paid", "bytes": 909, "commit_us": 6793.839, "reserve_us": 2480.238, "settle_us": 14933.898, "exercise_us": 893.232, "recover_us": 2194.79, "db_bytes": 32768, "latency_us": 25101.207}
+{"slot": 11, "outcome": "paid", "bytes": 909, "commit_us": 7305.188, "reserve_us": 3164.717, "settle_us": 14388.983, "exercise_us": 856.889, "recover_us": 1855.978, "db_bytes": 36864, "latency_us": 25715.777}
+{"slot": 12, "outcome": "paid", "bytes": 909, "commit_us": 6810.815, "reserve_us": 3077.604, "settle_us": 16128.044, "exercise_us": 1097.355, "recover_us": 1928.712, "db_bytes": 36864, "latency_us": 27113.818}
+{"slot": 13, "outcome": "paid", "bytes": 909, "commit_us": 7893.056, "reserve_us": 2809.234, "settle_us": 14500.15, "exercise_us": 979.573, "recover_us": 2127.837, "db_bytes": 40960, "latency_us": 26182.013}
+{"slot": 14, "outcome": "paid", "bytes": 909, "commit_us": 8739.69, "reserve_us": 2720.821, "settle_us": 14027.473, "exercise_us": 918.1, "recover_us": 1893.795, "db_bytes": 40960, "latency_us": 26406.084}
+{"slot": 15, "outcome": "paid", "bytes": 909, "commit_us": 7513.127, "reserve_us": 2978.708, "settle_us": 14137.572, "exercise_us": 813.424, "recover_us": 2357.525, "db_bytes": 45056, "latency_us": 25442.831}
+{"slot": 16, "outcome": "paid", "bytes": 909, "commit_us": 8210.737, "reserve_us": 2718.962, "settle_us": 16081.985, "exercise_us": 1066.322, "recover_us": 2458.681, "db_bytes": 45056, "latency_us": 28078.006}
+{"slot": 17, "outcome": "paid", "bytes": 909, "commit_us": 7984.635, "reserve_us": 2948.351, "settle_us": 17934.546, "exercise_us": 912.052, "recover_us": 2013.85, "db_bytes": 49152, "latency_us": 29779.584}
+{"slot": 18, "outcome": "paid", "bytes": 909, "commit_us": 6728.278, "reserve_us": 2925.656, "settle_us": 15801.565, "exercise_us": 1016.915, "recover_us": 2693.589, "db_bytes": 49152, "latency_us": 26472.414}
+{"slot": 19, "outcome": "paid", "bytes": 909, "commit_us": 7565.467, "reserve_us": 3309.486, "settle_us": 15308.668, "exercise_us": 1370.415, "recover_us": 8909.309, "db_bytes": 53248, "latency_us": 27554.036}
+{"slot": 20, "outcome": "paid", "bytes": 909, "commit_us": 9785.436, "reserve_us": 3251.661, "settle_us": 16895.563, "exercise_us": 877.697, "recover_us": 2427.98, "db_bytes": 53248, "latency_us": 30810.357}
+{"slot": 21, "outcome": "paid", "bytes": 909, "commit_us": 6859.262, "reserve_us": 3514.077, "settle_us": 15388.658, "exercise_us": 883.997, "recover_us": 2246.999, "db_bytes": 57344, "latency_us": 26645.994}
+{"slot": 22, "outcome": "paid", "bytes": 909, "commit_us": 10603.906, "reserve_us": 3080.241, "settle_us": 15468.543, "exercise_us": 917.998, "recover_us": 2357.253, "db_bytes": 57344, "latency_us": 30070.688}
+{"slot": 23, "outcome": "paid", "bytes": 909, "commit_us": 7213.074, "reserve_us": 3021.536, "settle_us": 15327.739, "exercise_us": 895.386, "recover_us": 2206.151, "db_bytes": 61440, "latency_us": 26457.735}
