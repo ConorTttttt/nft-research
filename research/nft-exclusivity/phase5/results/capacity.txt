@@ -1,0 +1,3 @@
+minimal incompatible sets for capacity 10 and debits 4,4,4: [(0, 1, 2)]
+1001 escrow-partition merges conserved
+credit change requires reservation grandfathering, collateral or a synchronized capacity check

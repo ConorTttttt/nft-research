@@ -1,0 +1,15 @@
+bytes 3139.0
+prepare_wall_us 9164.89
+settlement_wall_us 12409.72
+verify_cpu_us 2258.74
+export_wall_us 8244.99
+archive_wall_us 6542.13
+recovery_wall_us 2391.25
+db_bytes 634880.0
+onward_wall_us 19829.18
+duplicate_export_us 292.19
+buyer_p5_us 2151.22
+buyer_p4_us 1348.9
+seller_p5_us 2137.01
+seller_p4_us 1343.25
+database first/last 430080 823296

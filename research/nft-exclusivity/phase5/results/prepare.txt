@@ -1,0 +1,5 @@
+none 305 876 safe; split preparation reachable []
+restored nft 39 60 one source supported incompatible decisions ["nft records ('A', True)", "nft records ('A', False)"]
+restored pay 101 166 one source supported incompatible decisions ["pay records ('A', True)", "pay records ('A', False)"]
+unprepared debit 159 288 paid without bilateral prepare ["pay records ('A', True)", "archive/fetch ('pay', 'A', True)", 'exercise A paid']
+timeout 155 340 refund coexists with irrevocably vested payment ["nft records ('A', True)", "pay records ('A', True)", 'exercise A void']

@@ -1,0 +1,18 @@
+
+running 14 tests
+test rhai_engine::tests::unit_recovery::a_commitment_its_counterparty_answered_is_refused_naming_the_answer ... ok
+test rhai_engine::tests::unit_recovery::a_commitment_to_an_actions_hash_is_recovered_naming_the_action ... ok
+test rhai_engine::tests::unit_recovery::a_commitment_to_no_point_of_the_curve_is_recovered_with_no_record ... ok
+test rhai_engine::tests::unit_recovery::a_commitment_that_debited_less_than_a_whole_unit_of_every_unit_is_refused ... ok
+test rhai_engine::tests::unit_recovery::a_counterparty_a_key_may_match_is_refused ... ok
+test rhai_engine::tests::unit_recovery::rule_2_refuses_inputs_out_of_the_signatures_shape ... ok
+test rhai_engine::tests::unit_recovery::an_unknown_method_or_evidence_missing_a_hash_is_refused ... ok
+test rhai_engine::tests::unit_recovery::the_shipped_agreement_is_the_one_the_spec_names_and_its_rules_hold ... ok
+test rhai_engine::tests::unit_recovery::the_shipped_output_signature_refuses_a_run_missing_what_the_next_run_or_customer_service_reads ... ok
+test rhai_engine::tests::unit_recovery::runs_of_both_methods_build_on_one_recovered_set ... ok
+test rhai_engine::tests::unit_recovery::two_runs_add_up_their_credit_per_unit_and_recover_each_commitment_once ... ok
+test types::entries::global::global_definition::added_field_tests::a_definition_keeps_its_global_reserver_and_unit_recovery_through_its_entry_and_every_conversion ... ok
+test types::entries::global::global_definition::added_field_tests::a_definition_written_without_a_unit_recovery_reads_as_naming_none ... ok
+test rhai_engine::tests::unit_recovery::what_needs_no_walk_is_refused_before_the_walk ... ok
+
+test result: ok. 14 passed; 0 failed; 0 ignored; 0 measured; 487 filtered out; finished in 0.12s

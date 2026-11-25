@@ -1,0 +1,4 @@
+guarded orders 120 violations 0 first None
+independent rosters orders 120 violations 120 first ('export A', 'export B', 'legacy', 'rotated B', 'replay A')
+legacy independent orders 120 violations 120 first ('export A', 'export B', 'legacy', 'rotated B', 'replay A')
+epoch reset orders 120 violations 90 first ('export A', 'export B', 'legacy', 'rotated B', 'replay A')

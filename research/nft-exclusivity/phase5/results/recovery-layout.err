@@ -1,0 +1,3 @@
+   Compiling rave_engine v0.15.0 (/tmp/p5-layout/crates/rave_engine)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 20.14s
+     Running unittests src/lib.rs (/tmp/p3target/debug/deps/rave_engine-fbc214549337afa6)

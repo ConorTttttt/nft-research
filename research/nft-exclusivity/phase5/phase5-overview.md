@@ -1,0 +1,28 @@
+# Phase 5 — Can the two native authorities settle together?
+
+**The funded payment and native NFT export gates remain open. The native verdict is Pending.** We independently reproduced Phase 4, verified more of the real payer's history and implemented a restricted bilateral contract on a separately admitted test currency. No native release or refund derives from the experimental certificates.
+
+| Final research question | Answer |
+|---|---|
+| A. Native spending authority | Agent authorization plus the recognized ancestry's current unit balances, reservations, fees, credit limits and applicable definitions. No portable, uniquely consumed native capacity object was established. |
+| B. Recognized operations | Ordinary proposals/commitments, accept/reject, receipts/reclaim, parked balance and credit, RAVE allocation and collection, credit and recovery agreements, migration and bridge-related operations. See the authority graph for evidence by path. |
+| C. Can incompatible operations both validate? | Unresolved for the pinned native release. The supplied histories and public rules do not decide universal exclusion. A model recognizing fork-local debits or an unguarded exit admits incompatible outcomes. |
+| D. What prevents a competing exit after collection? | Historical signatures, reference checks and ledger transitions support collection on its ancestry. No authenticated all-exit exclusion or cross-epoch recognition contract was found. A blockchain warrant's financial consequences are unspecified here. |
+| E. Minimum native change | Every set of jointly unaffordable or otherwise incompatible dispositions must be ruled out by conserved preallocated rights or an authority common to the conflict. Native debit, credit reduction, recovery and migration must respect outstanding liabilities. The mechanism need not replace balance accounting. |
+| F. Bilateral preparation | Yes under the experimental admission contract. Both irrevocable, matching preparations cause both entitlements to vest. Each native system would need to recognize the same predicate. |
+| G. Party disappears | Existing signed preparation survives. A valid decline or incompatible exact-parent certificate can exclude payment. If neither is available an asset can remain locked forever. |
+| H. Executor loss | Independently verifiable if complete evidence and authentic roots survive. Obtaining every signature from an incomplete archive is not guaranteed. A read failure gives UnavailableEvidence. |
+| I. Legacy title after export | Old clients and old validators can continue recognizing their own acceptable histories. An external export cannot alter that contract. |
+| J. Two CEL import realms | Yes if each independently recognizes the same legacy authority. Pinning a single common export policy prevents duplicates within its recognition domain. |
+| K. Prevent competing titles | Both ordinary successor decisions and destination-bound export must consume the same source title version. Replays import one deterministic child. Upgrade/rotation requires a prospective old-authority decision. |
+| L. Value of a common primitive | It exposes where conflict coverage, authorization and receipt delivery are required. Monetary budget constraints may involve three or more jointly incompatible operations; a title's single-successor rule alone misses these. |
+| M. Necessary coordination | One exclusive choice at each independently disposable input or earlier partition of those rights. Two matching immutable consents suffice without terminal arbitration only for this bounded contract. |
+| N. Strongest alternative | For contested progress under partial synchrony, native-recognized BFT ordering plus durable evidence and a valid command. For deterministic fixed sales, concurrent prepares have fewer sequential dependencies. Neither supplies native redemption by itself. |
+| O. Improvement beyond Phase 4 | Payer's source DNA and funded acceptance verified through a contiguous signed prefix to the park. Two parallel prepares replace the sequential sale decision dependency in the lab. A certified decision for a different sale can conclusively exclude the original one. |
+| P. Real-value readiness | Insufficient evidence for native irreversible settlement. The local official-release credit and isolated lab currency have different recognition policies. |
+
+The strongest new result concerns split preparation. If title prepared A and the exact payment version prepared B, B's certificate proves A cannot pay. It can return **A's prepared title**, without refunding or otherwise redirecting B's payment. This also shows why two certificates referring to different payment versions are insufficient. If the incompatible choice is hidden, both legitimate readers can remain unable to act.
+
+[Native authority graph](native-unyt-authority-map.md) · [Native experiments and unresolved cases](adversarial-native-payment-tests.md) · [Bilateral protocol and proofs](mathematical-results.md) · [Export and legacy clients](native-hnft-export.md) · [Six candidates and decision](candidate-architectures.md) · [Proof interface](independent-proof-interface.md) · [Evidence ledger and reproduction](test-results.md) · [Performance](performance-comparison.md) · [Phase 6 gates](phase6-roadmap.md)
+
+A concrete native counterexample rules out one candidate for a void certificate. Both agents observed **Unparked after the seller collected all ten units**. A verifier issuing an NFT refund solely from that standing would return title to a paid seller. The finding concerns the meaning of the query. It leaves the underlying native double-disposition question unresolved. [Control and raw evidence](adversarial-native-payment-tests.md)

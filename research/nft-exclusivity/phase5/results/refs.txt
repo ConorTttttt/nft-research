@@ -1,0 +1,10 @@
+ConorTttttt/hNFT
+c9fb294e88b4dd958a3a7f4bd588ca9a17d52673	HEAD
+unytco/unyt-sandbox
+b407884c280f39c9a3f3f7cbb0c1eab5c5100a91	HEAD
+unytco/migration-service
+d8a244d760bcfa1ecc92ebc900f00ab1c5ff80c8	HEAD
+unytco/smart_agreement_library
+be2d630a3f3861c66b1b2ee341ff1c76b28210b8	HEAD
+30da888cf5cfdd67561a3dac0d9ff2e32757fc4a	refs/heads/gate/s0-01-holochain-0.7.1
+36b94b60ad4285af48438b03810d2a9f1cdb0272	refs/heads/research/certified-ownership-foundation

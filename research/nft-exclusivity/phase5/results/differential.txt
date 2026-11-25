@@ -1,0 +1,1 @@
+{"cases": 146, "rejected": 144, "valid_paid": 1, "withheld": 1}

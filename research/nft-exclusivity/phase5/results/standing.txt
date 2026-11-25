@@ -1,0 +1,1 @@
+Both readers observed Parked(10) followed by Unparked on a collected sale.

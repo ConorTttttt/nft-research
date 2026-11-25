@@ -1,0 +1,2 @@
+Archived proof recovered FinalPaid after producer exit; explicit failed retrieval UnavailableEvidence.
+Recovered onward signature and quorum verified; substituted recipient rejected.

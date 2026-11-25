@@ -1,0 +1,9 @@
+b407884 chore: pin unyt to the 1.0.0 app (#135)
+68bb122 chore: pin unyt to the cli-v0.117.0.1 changelog (#133)
+a636558 chore: pin unyt to the 0.117.0 app (#132)
+8d69c78 fix: the TestNet app's voucher service is https://vouchers.holo.host (#131)
+ CHANGELOG.md | 2 +-
+ network.json | 2 +-
+ unyt         | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+160000 commit d2fa9c58c51a6a5f4aac8e7c6986bc2cc1ea1fdf	unyt

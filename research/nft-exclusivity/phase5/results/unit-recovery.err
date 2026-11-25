@@ -1,0 +1,3 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.17s
+     Running unittests src/lib.rs (/tmp/p3target/debug/deps/rave_engine-fbc214549337afa6)
+error: test failed, to rerun pass `--lib`

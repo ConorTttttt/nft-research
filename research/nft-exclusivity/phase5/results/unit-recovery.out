@@ -1,0 +1,96 @@
+
+running 14 tests
+test rhai_engine::tests::unit_recovery::a_commitment_its_counterparty_answered_is_refused_naming_the_answer ... FAILED
+test rhai_engine::tests::unit_recovery::a_commitment_that_debited_less_than_a_whole_unit_of_every_unit_is_refused ... FAILED
+test rhai_engine::tests::unit_recovery::a_commitment_to_an_actions_hash_is_recovered_naming_the_action ... FAILED
+test rhai_engine::tests::unit_recovery::a_commitment_to_no_point_of_the_curve_is_recovered_with_no_record ... FAILED
+test rhai_engine::tests::unit_recovery::an_unknown_method_or_evidence_missing_a_hash_is_refused ... FAILED
+test rhai_engine::tests::unit_recovery::rule_2_refuses_inputs_out_of_the_signatures_shape ... FAILED
+test rhai_engine::tests::unit_recovery::a_counterparty_a_key_may_match_is_refused ... FAILED
+test rhai_engine::tests::unit_recovery::the_shipped_agreement_is_the_one_the_spec_names_and_its_rules_hold ... FAILED
+test rhai_engine::tests::unit_recovery::runs_of_both_methods_build_on_one_recovered_set ... FAILED
+test rhai_engine::tests::unit_recovery::the_shipped_output_signature_refuses_a_run_missing_what_the_next_run_or_customer_service_reads ... FAILED
+test rhai_engine::tests::unit_recovery::two_runs_add_up_their_credit_per_unit_and_recover_each_commitment_once ... FAILED
+test types::entries::global::global_definition::added_field_tests::a_definition_keeps_its_global_reserver_and_unit_recovery_through_its_entry_and_every_conversion ... ok
+test types::entries::global::global_definition::added_field_tests::a_definition_written_without_a_unit_recovery_reads_as_naming_none ... ok
+test rhai_engine::tests::unit_recovery::what_needs_no_walk_is_refused_before_the_walk ... FAILED
+
+failures:
+
+---- rhai_engine::tests::unit_recovery::a_commitment_its_counterparty_answered_is_refused_naming_the_answer stdout ----
+
+thread 'rhai_engine::tests::unit_recovery::a_commitment_its_counterparty_answered_is_refused_naming_the_answer' (6174) panicked at src/rhai_engine/tests/mod.rs:170:55:
+read /tmp/p5-engine-tests/../../smart_agreement_library/library/__system_unit_recovery/execution_code.rhai: No such file or directory (os error 2)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- rhai_engine::tests::unit_recovery::a_commitment_that_debited_less_than_a_whole_unit_of_every_unit_is_refused stdout ----
+
+thread 'rhai_engine::tests::unit_recovery::a_commitment_that_debited_less_than_a_whole_unit_of_every_unit_is_refused' (6175) panicked at src/rhai_engine/tests/mod.rs:170:55:
+read /tmp/p5-engine-tests/../../smart_agreement_library/library/__system_unit_recovery/execution_code.rhai: No such file or directory (os error 2)
+
+---- rhai_engine::tests::unit_recovery::a_commitment_to_an_actions_hash_is_recovered_naming_the_action stdout ----
+
+thread 'rhai_engine::tests::unit_recovery::a_commitment_to_an_actions_hash_is_recovered_naming_the_action' (6176) panicked at src/rhai_engine/tests/mod.rs:170:55:
+read /tmp/p5-engine-tests/../../smart_agreement_library/library/__system_unit_recovery/execution_code.rhai: No such file or directory (os error 2)
+
+---- rhai_engine::tests::unit_recovery::a_commitment_to_no_point_of_the_curve_is_recovered_with_no_record stdout ----
+
+thread 'rhai_engine::tests::unit_recovery::a_commitment_to_no_point_of_the_curve_is_recovered_with_no_record' (6177) panicked at src/rhai_engine/tests/mod.rs:170:55:
+read /tmp/p5-engine-tests/../../smart_agreement_library/library/__system_unit_recovery/execution_code.rhai: No such file or directory (os error 2)
+
+---- rhai_engine::tests::unit_recovery::an_unknown_method_or_evidence_missing_a_hash_is_refused stdout ----
+
+thread 'rhai_engine::tests::unit_recovery::an_unknown_method_or_evidence_missing_a_hash_is_refused' (6179) panicked at src/rhai_engine/tests/mod.rs:170:55:
+read /tmp/p5-engine-tests/../../smart_agreement_library/library/__system_unit_recovery/execution_code.rhai: No such file or directory (os error 2)
+
+---- rhai_engine::tests::unit_recovery::rule_2_refuses_inputs_out_of_the_signatures_shape stdout ----
+
+thread 'rhai_engine::tests::unit_recovery::rule_2_refuses_inputs_out_of_the_signatures_shape' (6180) panicked at src/rhai_engine/tests/mod.rs:170:55:
+read /tmp/p5-engine-tests/../../smart_agreement_library/library/__system_unit_recovery/runtime_input_signature.json: No such file or directory (os error 2)
+
+---- rhai_engine::tests::unit_recovery::a_counterparty_a_key_may_match_is_refused stdout ----
+
+thread 'rhai_engine::tests::unit_recovery::a_counterparty_a_key_may_match_is_refused' (6178) panicked at src/rhai_engine/tests/mod.rs:170:55:
+read /tmp/p5-engine-tests/../../smart_agreement_library/library/__system_unit_recovery/execution_code.rhai: No such file or directory (os error 2)
+
+---- rhai_engine::tests::unit_recovery::the_shipped_agreement_is_the_one_the_spec_names_and_its_rules_hold stdout ----
+
+thread 'rhai_engine::tests::unit_recovery::the_shipped_agreement_is_the_one_the_spec_names_and_its_rules_hold' (6182) panicked at src/rhai_engine/tests/mod.rs:170:55:
+read /tmp/p5-engine-tests/../../smart_agreement_library/library/__system_unit_recovery/agreements/agreement_rules_1.json: No such file or directory (os error 2)
+
+---- rhai_engine::tests::unit_recovery::runs_of_both_methods_build_on_one_recovered_set stdout ----
+
+thread 'rhai_engine::tests::unit_recovery::runs_of_both_methods_build_on_one_recovered_set' (6181) panicked at src/rhai_engine/tests/mod.rs:170:55:
+read /tmp/p5-engine-tests/../../smart_agreement_library/library/__system_unit_recovery/execution_code.rhai: No such file or directory (os error 2)
+
+---- rhai_engine::tests::unit_recovery::the_shipped_output_signature_refuses_a_run_missing_what_the_next_run_or_customer_service_reads stdout ----
+
+thread 'rhai_engine::tests::unit_recovery::the_shipped_output_signature_refuses_a_run_missing_what_the_next_run_or_customer_service_reads' (6183) panicked at src/rhai_engine/tests/mod.rs:170:55:
+read /tmp/p5-engine-tests/../../smart_agreement_library/library/__system_unit_recovery/execution_code.rhai: No such file or directory (os error 2)
+
+---- rhai_engine::tests::unit_recovery::two_runs_add_up_their_credit_per_unit_and_recover_each_commitment_once stdout ----
+
+thread 'rhai_engine::tests::unit_recovery::two_runs_add_up_their_credit_per_unit_and_recover_each_commitment_once' (6184) panicked at src/rhai_engine/tests/mod.rs:170:55:
+read /tmp/p5-engine-tests/../../smart_agreement_library/library/__system_unit_recovery/execution_code.rhai: No such file or directory (os error 2)
+
+---- rhai_engine::tests::unit_recovery::what_needs_no_walk_is_refused_before_the_walk stdout ----
+
+thread 'rhai_engine::tests::unit_recovery::what_needs_no_walk_is_refused_before_the_walk' (6185) panicked at src/rhai_engine/tests/mod.rs:170:55:
+read /tmp/p5-engine-tests/../../smart_agreement_library/library/__system_unit_recovery/execution_code.rhai: No such file or directory (os error 2)
+
+
+failures:
+    rhai_engine::tests::unit_recovery::a_commitment_its_counterparty_answered_is_refused_naming_the_answer
+    rhai_engine::tests::unit_recovery::a_commitment_that_debited_less_than_a_whole_unit_of_every_unit_is_refused
+    rhai_engine::tests::unit_recovery::a_commitment_to_an_actions_hash_is_recovered_naming_the_action
+    rhai_engine::tests::unit_recovery::a_commitment_to_no_point_of_the_curve_is_recovered_with_no_record
+    rhai_engine::tests::unit_recovery::a_counterparty_a_key_may_match_is_refused
+    rhai_engine::tests::unit_recovery::an_unknown_method_or_evidence_missing_a_hash_is_refused
+    rhai_engine::tests::unit_recovery::rule_2_refuses_inputs_out_of_the_signatures_shape
+    rhai_engine::tests::unit_recovery::runs_of_both_methods_build_on_one_recovered_set
+    rhai_engine::tests::unit_recovery::the_shipped_agreement_is_the_one_the_spec_names_and_its_rules_hold
+    rhai_engine::tests::unit_recovery::the_shipped_output_signature_refuses_a_run_missing_what_the_next_run_or_customer_service_reads
+    rhai_engine::tests::unit_recovery::two_runs_add_up_their_credit_per_unit_and_recover_each_commitment_once
+    rhai_engine::tests::unit_recovery::what_needs_no_walk_is_refused_before_the_walk
+
+test result: FAILED. 2 passed; 12 failed; 0 ignored; 0 measured; 487 filtered out; finished in 0.03s
